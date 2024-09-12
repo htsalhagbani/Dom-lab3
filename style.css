@@ -1,0 +1,49 @@
+.container {
+    background-color: lightgray;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+
+button {
+    width: 150px; /* set a width so it doesnt change upon hover */
+     border: 0px solid #004B84;
+     background: rgb(126, 89, 89);
+     padding: 3px 21px;
+     -webkit-border-radius: 16px;
+     -moz-border-radius: 16px;
+     border-radius: 16px;
+     color: #ffffff;
+     font-size: 12px;
+     font-family: Questrial;
+     text-decoration: none;
+     vertical-align: middle;
+     letter-spacing: 2px;
+  }
+  
+  .button:hover span {
+    display:none
+  }
+  
+
+ 
+
+  .divbutoon:hover::before {
+    content:"Button 1!";
+  }
+
+  .divbutoon2:hover::before {
+    content:"Button 2!";
+  }
+
+  .divbutoon3:hover::before {
+    content:"Button 3!";
+  }
